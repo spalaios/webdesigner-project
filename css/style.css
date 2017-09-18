@@ -1,0 +1,165 @@
+body{
+background: black;
+}
+/*css for both important logs and daily logs */
+.card-scroll{
+  height: 450px;
+  overflow-y: scroll;
+}
+
+.top{
+  /*border: 1px solid black;*/
+
+}
+.top-img-left{
+  float: left;
+  /*border: 1px solid black;*/
+  padding: 2px;
+  margin-right:10px;
+  margin-left:20px;
+  margin-top: 3px;
+  background-color: lightgrey;
+  /*padding-right: 10px;*/
+}
+.top-img-right{
+  margin-top: -110px;
+  margin-left: 290px;
+  padding: 5px;
+}
+.top p{
+  /*border: 1px solid black;*/
+  color: grey;
+  font-size: 12px;
+  font-weight: bold;
+  width: 70%;
+}
+
+.below-part{
+  margin-left: 50px;
+  margin-top: -30px;
+  display: flex;
+  justify-content:flex-start;
+  align-items: center;
+  /*border: 1px solid black;*/
+  /*padding: 5px;*/
+  /*width: %;*/
+}
+
+.below-img{
+  padding: 2px;
+  margin-right: 5px;
+  /*border: 1px solid black;*/
+}
+.name{
+  font-style: sans-serif;
+  margin-left:5px;
+  font-size: 10px;
+}
+.time{
+  margin-left: 10px;
+  font-weight: bold;
+}
+.topic{
+  /*border: 1px solid black;*/
+  padding:15px;
+  text-indent:8px;
+  color: coral;
+  /*line-height: 15px;*/
+  font-style: sans-serif;
+}
+/* end of important logs and daily log*/
+
+/*css code for my patient card */
+.patient{
+  /*background: orange;*/
+}
+.patient p{
+  font-size: 26px;
+  font-weight: bold;
+  color: white;
+  letter-spacing: 0.07em;
+}
+.patient #motivate-block {
+  /*border: 1px solid black;*/
+  width: 120px;
+  text-align: center;
+  line-height: 40px;
+  margin-left: auto;
+  border-radius: 20px;
+  font-size: 12px;
+  font-weight: lighter;
+  background: #444547;
+}
+
+.patient h4{
+  font-size: 18px;
+  font-weight: bold;
+}
+/* end of patient block */
+
+/*start of new-patient block*/
+.new-patient{
+  height: 150px;
+}
+.card #new-patient-title {
+  font-size: 18px;
+}
+/* end of new-patient block*/
+
+/*start of new-product block*/
+.new-product{
+  height: 550px;
+}
+.card #new-product-title{
+  font-size: 18px;
+}
+/*end of new-product block*/
+
+/*start of earning block*/
+.card #earning-title{
+  font-size: 18px;
+}
+
+.card .earning-subtitle{
+  font-size: 12px;
+}
+
+.card #earning-para{
+  font-size: 22px;
+}
+/*end of earning block*/
+
+/*start of top-block*/
+#top-block-container{
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+.card #top-block-title{
+  font-size: 14px;
+}
+.card #top-block-para{
+  font-size: 12px;
+  width: 500px;
+}
+.card #top-block-image{
+  /*border: 1px solid black;*/
+  padding-top: 40px;
+  padding-bottom: 40px;
+  margin-right: 15px;
+}
+.card #subscribe{
+  /*border: 1px solid black;*/
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 25px;
+  padding-right: 25px;
+  margin-left: 8px;
+  margin-top: 20px;
+  text-align: center;
+  font-weight: bold;
+  border-radius: 20px;
+  background: orange;
+  color: white;
+  font-size: 14px;
+}
