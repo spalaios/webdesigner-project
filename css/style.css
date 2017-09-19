@@ -1,16 +1,32 @@
 body{
-background: black;
+background:#c0c5ce;
+}
+.card:hover{
+  box-shadow: 2px 2px 15px rgba(0, 0, 0, 0.4), -2px -2px 15px rgba(0,0,0,0.4);
 }
 /*css for both important logs and daily logs */
 .card-scroll{
   height: 450px;
   overflow-y: scroll;
 }
-
+.card-scroll::-webkit-scrollbar {
+    width: 5px;
+}
+.card-scroll::-webkit-scrollbar-track {
+      background-color: grey;
+}
+.card-scroll::-webkit-scrollbar-thumb {
+      /*background-color:rgba(0, 0, 0, 0.1);*/
+      background-color:coral;
+}
+.card-scroll::-webkit-scrollbar-corner {
+      background-color: black;
+}
 .top{
   /*border: 1px solid black;*/
 
 }
+
 .top-img-left{
   float: left;
   /*border: 1px solid black;*/
@@ -31,7 +47,7 @@ background: black;
   color: grey;
   font-size: 12px;
   font-weight: bold;
-  width: 70%;
+  width: 80%;
 }
 
 .below-part{
@@ -140,7 +156,7 @@ background: black;
 }
 .card #top-block-para{
   font-size: 12px;
-  width: 500px;
+  /*width: 500px;*/
 }
 .card #top-block-image{
   /*border: 1px solid black;*/
@@ -162,4 +178,71 @@ background: black;
   background: orange;
   color: white;
   font-size: 14px;
+  cursor: pointer;
 }
+
+/*start of message block*/
+.message-block{
+  box-sizing: border-box;
+  /*border: 1px solid green;*/
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  height: 60px;
+}
+.message-name-block{
+  /*box-sizing: border-box;*/
+  /*border: 1px solid black;*/
+  /*display: flex;*/
+  flex-direction: column;
+  align-items: flex-end;
+  /*padding-right: 25px;
+  padding-left: 25px;*/
+  height: 80px;
+  width: 40%;
+  position: relative;
+}
+.card .message-name-block h6{
+  /*box-sizing: border-box;*/
+  position: absolute;
+  font-size: 14px;
+  top: 30%;
+/*  line-height: 10px;
+  border: 1px solid blue;
+  margin-top: 35px;
+  margin-left: -20px;*/
+}
+.card .message-name-block p{
+  position: absolute;
+  top: 43%;
+}
+.card .message-name-block small{
+  font-size: 9px;
+  letter-spacing: 0.02rem;
+  /*border: 1px solid pink;*/
+  margin-right: 5px;
+  font-weight: bold;
+  font-family: sans-serif;
+}
+.card .message-name-block span{
+  /*border: 1px solid red;*/
+  font-size: 12px;
+  color: red;
+}
+
+.message-block .request-block{
+  /*border: 1px solid black;*/
+  font-weight: lighter;
+  font-size: 12px;
+  margin-top: 15px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  padding-left: 10px;
+  padding-right: 10px;
+  background: #444547;
+  color: white;
+  border-radius: 30px;
+  /*line-height: 10px;*/
+  cursor: pointer;
+}
+/*end of message-block */
