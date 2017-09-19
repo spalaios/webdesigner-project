@@ -4,7 +4,9 @@ background:#c0c5ce;
 .card:hover{
   box-shadow: 2px 2px 15px rgba(0, 0, 0, 0.4), -2px -2px 15px rgba(0,0,0,0.4);
 }
-/*css for both important logs and daily logs */
+/******************************************
+      important logs and daily logs
+******************************************/
 .card-scroll{
   height: 450px;
   overflow-y: scroll;
@@ -16,26 +18,22 @@ background:#c0c5ce;
       background-color: grey;
 }
 .card-scroll::-webkit-scrollbar-thumb {
-      /*background-color:rgba(0, 0, 0, 0.1);*/
-      background-color:coral;
+      background-color:tomato;
 }
 .card-scroll::-webkit-scrollbar-corner {
       background-color: black;
 }
 .top{
-  /*border: 1px solid black;*/
 
 }
 
 .top-img-left{
   float: left;
-  /*border: 1px solid black;*/
   padding: 2px;
   margin-right:10px;
   margin-left:20px;
   margin-top: 3px;
   background-color: lightgrey;
-  /*padding-right: 10px;*/
 }
 .top-img-right{
   margin-top: -110px;
@@ -43,7 +41,6 @@ background:#c0c5ce;
   padding: 5px;
 }
 .top p{
-  /*border: 1px solid black;*/
   color: grey;
   font-size: 12px;
   font-weight: bold;
@@ -56,15 +53,11 @@ background:#c0c5ce;
   display: flex;
   justify-content:flex-start;
   align-items: center;
-  /*border: 1px solid black;*/
-  /*padding: 5px;*/
-  /*width: %;*/
 }
 
 .below-img{
   padding: 2px;
   margin-right: 5px;
-  /*border: 1px solid black;*/
 }
 .name{
   font-style: sans-serif;
@@ -76,18 +69,19 @@ background:#c0c5ce;
   font-weight: bold;
 }
 .topic{
-  /*border: 1px solid black;*/
   padding:15px;
   text-indent:8px;
-  color: coral;
-  /*line-height: 15px;*/
+  color: tomato;
   font-style: sans-serif;
 }
-/* end of important logs and daily log*/
+/**********************************
+end of important logs and daily log
+************************************/
 
-/*css code for my patient card */
+/****************************
+ patient card
+****************************/
 .patient{
-  /*background: orange;*/
 }
 .patient p{
   font-size: 26px;
@@ -96,7 +90,6 @@ background:#c0c5ce;
   letter-spacing: 0.07em;
 }
 .patient #motivate-block {
-  /*border: 1px solid black;*/
   width: 120px;
   text-align: center;
   line-height: 40px;
@@ -105,33 +98,46 @@ background:#c0c5ce;
   font-size: 12px;
   font-weight: lighter;
   background: #444547;
+  cursor: pointer;
 }
 
 .patient h4{
   font-size: 18px;
   font-weight: bold;
 }
-/* end of patient block */
+/*********************
+end of patient block
+*********************/
 
-/*start of new-patient block*/
+/*************************
+    new-patient block
+*************************/
 .new-patient{
   height: 150px;
 }
 .card #new-patient-title {
   font-size: 18px;
 }
-/* end of new-patient block*/
+/************************
+end of new-patient block
+************************/
 
-/*start of new-product block*/
+/*************************
+    new-product block
+**************************/
 .new-product{
   height: 550px;
 }
 .card #new-product-title{
   font-size: 18px;
 }
-/*end of new-product block*/
+/************************
+end of new-product block
+************************/
 
-/*start of earning block*/
+/**********************
+     earning block
+**********************/
 .card #earning-title{
   font-size: 18px;
 }
@@ -143,9 +149,13 @@ background:#c0c5ce;
 .card #earning-para{
   font-size: 22px;
 }
-/*end of earning block*/
+/********************
+end of earning block
+*********************/
 
-/*start of top-block*/
+/*******************
+    top-block
+********************/
 #top-block-container{
   display: flex;
   align-items: center;
@@ -156,16 +166,13 @@ background:#c0c5ce;
 }
 .card #top-block-para{
   font-size: 12px;
-  /*width: 500px;*/
 }
 .card #top-block-image{
-  /*border: 1px solid black;*/
   padding-top: 40px;
   padding-bottom: 40px;
   margin-right: 15px;
 }
 .card #subscribe{
-  /*border: 1px solid black;*/
   padding-top: 10px;
   padding-bottom: 10px;
   padding-left: 25px;
@@ -180,37 +187,30 @@ background:#c0c5ce;
   font-size: 14px;
   cursor: pointer;
 }
-
-/*start of message block*/
+/*****************
+end of top block
+******************/
+/*********************
+  message block
+***********************/
 .message-block{
   box-sizing: border-box;
-  /*border: 1px solid green;*/
   display: flex;
   justify-content: space-around;
   align-items: center;
   height: 60px;
 }
 .message-name-block{
-  /*box-sizing: border-box;*/
-  /*border: 1px solid black;*/
-  /*display: flex;*/
   flex-direction: column;
   align-items: flex-end;
-  /*padding-right: 25px;
-  padding-left: 25px;*/
   height: 80px;
   width: 40%;
   position: relative;
 }
 .card .message-name-block h6{
-  /*box-sizing: border-box;*/
   position: absolute;
   font-size: 14px;
   top: 30%;
-/*  line-height: 10px;
-  border: 1px solid blue;
-  margin-top: 35px;
-  margin-left: -20px;*/
 }
 .card .message-name-block p{
   position: absolute;
@@ -219,19 +219,16 @@ background:#c0c5ce;
 .card .message-name-block small{
   font-size: 9px;
   letter-spacing: 0.02rem;
-  /*border: 1px solid pink;*/
   margin-right: 5px;
   font-weight: bold;
   font-family: sans-serif;
 }
 .card .message-name-block span{
-  /*border: 1px solid red;*/
   font-size: 12px;
   color: red;
 }
 
 .message-block .request-block{
-  /*border: 1px solid black;*/
   font-weight: lighter;
   font-size: 12px;
   margin-top: 15px;
@@ -242,7 +239,12 @@ background:#c0c5ce;
   background: #444547;
   color: white;
   border-radius: 30px;
-  /*line-height: 10px;*/
   cursor: pointer;
 }
-/*end of message-block */
+.card #message-title{
+  text-indent: 12px;
+  font-size: 14px;
+}
+/*********************
+end of message-block
+*********************/
